@@ -441,6 +441,18 @@ svg {
   border: 2px solid var(--first-color);
 }
 
+/*=============== Article =================*/
+.article__container {
+  row-gap: 2.5rem;
+}
+
+.article__content {
+  display: grid;
+  row-gap: 2rem;
+  text-align: justify;
+  color: gainsboro;
+}
+
 /*=============== PROJECTS ===============*/
 .projects{
   background-color: var(--container-color);
